@@ -55,10 +55,17 @@ textarea:focus {
 	outline: none;
 	box-shadow:  none !important;
 }
-.section {
-	padding: 100px 0;
-	position:relative;
-}
+		.section {
+			background-color: #00acee;
+			padding: 100px 0;
+			position:relative;
+			display: flex;
+			min-height: 100vh;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+		}
+
 .section.small_pt,
 .top_footer.small_pt {
 	padding-top: 50px;
@@ -69,24 +76,6 @@ textarea:focus {
 .section.small_pb,
 .top_footer.small_pb {
 	padding-bottom: 50px;
-}
-.small_padding {
-    padding: 30px;
-}
-.medium_padding {
-    padding: 50px;
-}
-.large_padding {
-    padding: 100px;
-}
-.small_divider {
-	height: 30px;
-}
-.medium_divider {
-	height: 50px;
-}
-.large_divider {
-	height: 100px;
 }
 .section.pb_20, .pb_20 {
 	padding-bottom: 20px;
@@ -263,7 +252,7 @@ button:focus {
 .btn.btn-lg i {
     font-size: 28px;
 }
-.btn-aylen,
+/* .btn-aylen,
 .btn-aylen2 {
 	position: relative;
 	overflow: hidden;
@@ -311,7 +300,8 @@ button:focus {
     -moz-transform: scale(0);
 	-webkit-transform: scale(10);
 	transform: scale(0);
-}
+} */
+
 .btn-horiz,.btn-horiz2 {
     position: relative;
     transition: all 0.5s ease-in-out;
@@ -960,7 +950,7 @@ span.logo {
     font-weight: 700;
 }
 .navbar .navbar-nav li {
-	position: relative;
+	/* position: relative; */
 	list-style: none;
 }
 .navbar-nav .dropdown-menu {
